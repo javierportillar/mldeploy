@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Predicción</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="container-form">
+    <h2>Valores</h2>
+    <form action="/predict" method="post">
+      <div class="mb-3">
+        <label for="Type_B" class="form-label">Pedidos Tipo A</label>
+        <input type="number" step="any" class="form-control"
+               id="Type_A" name="Type_A" placeholder="Ej. 130"
+               value="{{ form_data.Type_A if form_data is defined else '' }}">
+      </div>
+      <div class="mb-3">
+        <label for="Type_B" class="form-label">Pedidos Tipo B</label>
+        <input type="number" step="any" class="form-control"
+               id="Type_B" name="Type_B" placeholder="Ej. 120"
+               value="{{ form_data.Type_B if form_data is defined else '' }}">
+      </div>
+      <div class="mb-3">
+        <label for="Type_C" class="form-label">Pedidos Tipo C</label>
+        <input type="number" step="any" class="form-control"
+               id="Type_C" name="Type_C" placeholder="Ej. 120"
+               value="{{ form_data.Type_C if form_data is defined else '' }}">
+      </div>
+      <div class="mb-3">
+        <label for="Non_urgent" class="form-label">Pedidos No Urgentes</label>
+        <input type="number" step="any" class="form-control"
+               id="Non_urgent" name="Non_urgent" placeholder="Ej. 340"
+               value="{{ form_data.Non_urgent if form_data is defined else '' }}">
+      </div>
+      <div class="mb-3">
+        <label for="Urgent" class="form-label">Pedidos Urentes</label>
+        <input type="number" step="any" class="form-control"
+               id="Urgent" name="Urgent" placeholder="Ej. 75"
+               value="{{ form_data.Urgent if form_data is defined else '' }}">
+      </div>
+      <button type="submit" class="btn btn-primary">Predecir</button>
+    </form>
+
+    {# Bloque de error #}
+    {% if error %}
+      <div class="alert-error">{{ error }}</div>
+    {% endif %}
+
+    {# Bloque de resultado #}
+    {% if prediccion_text %}
+      <div class="alert-success">
+        <h4>{{ prediccion_text }}</h4>
+        <p><strong>Valores ingresados:</strong></p>
+        <ul>
+          {% for key, val in form_data.items() %}
+            <li>{{ key }}: {{ val }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+  </div>
+</body>
+</html>

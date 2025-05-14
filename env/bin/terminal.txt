@@ -1,0 +1,306 @@
+    ~/Doc/pe/M/1/2/M/proyecto ▓▒░ python3 -m venv env
+
+    ~/Doc/pe/M/1/2/M/proyecto ▓▒░ source env/bin/activate
+
+    ~/Doc/pe/M/1/2/M/proyecto ▓▒░ pip install pandas
+Collecting pandas
+  Downloading pandas-2.2.3-cp312-cp312-macosx_11_0_arm64.whl.metadata (89 kB)
+Collecting numpy>=1.26.0 (from pandas)
+  Downloading numpy-2.2.5-cp312-cp312-macosx_14_0_arm64.whl.metadata (62 kB)
+Collecting python-dateutil>=2.8.2 (from pandas)
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting pytz>=2020.1 (from pandas)
+  Using cached pytz-2025.2-py2.py3-none-any.whl.metadata (22 kB)
+Collecting tzdata>=2022.7 (from pandas)
+  Using cached tzdata-2025.2-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting six>=1.5 (from python-dateutil>=2.8.2->pandas)
+  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Downloading pandas-2.2.3-cp312-cp312-macosx_11_0_arm64.whl (11.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.4/11.4 MB 4.5 MB/s eta 0:00:00
+Downloading numpy-2.2.5-cp312-cp312-macosx_14_0_arm64.whl (5.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.2/5.2 MB 5.7 MB/s eta 0:00:00
+Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Using cached pytz-2025.2-py2.py3-none-any.whl (509 kB)
+Using cached tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: pytz, tzdata, six, numpy, python-dateutil, pandas
+Successfully installed numpy-2.2.5 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.2 six-1.17.0 tzdata-2025.2
+
+[notice] A new release of pip is available: 24.3.1 -> 25.1.1
+[notice] To update, run: pip install --upgrade pip
+
+    ~/Doc/pe/M/1/2/M/proyecto ▓▒░ source env/bin/activate
+
+    ~/Doc/pe/M/1/2da mitad/Machine learling/proyecto ▓▒░ pip install lask pandas numpy scikit-learn  ░▒▓ ✔  proyecto   03:53:58 PM  
+ERROR: Could not find a version that satisfies the requirement lask (from versions: none)
+
+[notice] A new release of pip is available: 24.3.1 -> 25.1.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for lask
+
+    ~/Doc/pe/M/1/2/M/proyecto ▓▒░ pip install --upgrade pip                                        ░▒▓ 1 ✘  proyecto   03:54:28 PM  
+Requirement already satisfied: pip in ./env/lib/python3.12/site-packages (24.3.1)
+Collecting pip
+  Downloading pip-25.1.1-py3-none-any.whl.metadata (3.6 kB)
+Downloading pip-25.1.1-py3-none-any.whl (1.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 2.2 MB/s eta 0:00:00
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 24.3.1
+    Uninstalling pip-24.3.1:
+      Successfully uninstalled pip-24.3.1
+Successfully installed pip-25.1.1
+
+    ~/Doc/pe/M/1/2/M/proyecto ▓▒░ pip install flask pandas numpy scikit-learn                        ░▒▓ ✔  proyecto   03:54:46 PM  
+Collecting flask
+  Downloading flask-3.1.0-py3-none-any.whl.metadata (2.7 kB)
+Requirement already satisfied: pandas in ./env/lib/python3.12/site-packages (2.2.3)
+Requirement already satisfied: numpy in ./env/lib/python3.12/site-packages (2.2.5)
+Collecting scikit-learn
+  Downloading scikit_learn-1.6.1-cp312-cp312-macosx_12_0_arm64.whl.metadata (31 kB)
+Collecting Werkzeug>=3.1 (from flask)
+  Downloading werkzeug-3.1.3-py3-none-any.whl.metadata (3.7 kB)
+Collecting Jinja2>=3.1.2 (from flask)
+  Using cached jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting itsdangerous>=2.2 (from flask)
+  Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+Collecting click>=8.1.3 (from flask)
+  Downloading click-8.2.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting blinker>=1.9 (from flask)
+  Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+Requirement already satisfied: python-dateutil>=2.8.2 in ./env/lib/python3.12/site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in ./env/lib/python3.12/site-packages (from pandas) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in ./env/lib/python3.12/site-packages (from pandas) (2025.2)
+Collecting scipy>=1.6.0 (from scikit-learn)
+  Downloading scipy-1.15.3-cp312-cp312-macosx_14_0_arm64.whl.metadata (61 kB)
+Collecting joblib>=1.2.0 (from scikit-learn)
+  Downloading joblib-1.5.0-py3-none-any.whl.metadata (5.6 kB)
+Collecting threadpoolctl>=3.1.0 (from scikit-learn)
+  Downloading threadpoolctl-3.6.0-py3-none-any.whl.metadata (13 kB)
+Collecting MarkupSafe>=2.0 (from Jinja2>=3.1.2->flask)
+  Downloading MarkupSafe-3.0.2-cp312-cp312-macosx_11_0_arm64.whl.metadata (4.0 kB)
+Requirement already satisfied: six>=1.5 in ./env/lib/python3.12/site-packages (from python-dateutil>=2.8.2->pandas) (1.17.0)
+Downloading flask-3.1.0-py3-none-any.whl (102 kB)
+Downloading scikit_learn-1.6.1-cp312-cp312-macosx_12_0_arm64.whl (11.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.2/11.2 MB 6.3 MB/s eta 0:00:00
+Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+Downloading click-8.2.0-py3-none-any.whl (102 kB)
+Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Using cached jinja2-3.1.6-py3-none-any.whl (134 kB)
+Downloading joblib-1.5.0-py3-none-any.whl (307 kB)
+Downloading MarkupSafe-3.0.2-cp312-cp312-macosx_11_0_arm64.whl (12 kB)
+Downloading scipy-1.15.3-cp312-cp312-macosx_14_0_arm64.whl (22.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 22.4/22.4 MB 2.9 MB/s eta 0:00:00
+Downloading threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
+Downloading werkzeug-3.1.3-py3-none-any.whl (224 kB)
+Installing collected packages: threadpoolctl, scipy, MarkupSafe, joblib, itsdangerous, click, blinker, Werkzeug, scikit-learn, Jinja2, flask
+Successfully installed Jinja2-3.1.6 MarkupSafe-3.0.2 Werkzeug-3.1.3 blinker-1.9.0 click-8.2.0 flask-3.1.0 itsdangerous-2.2.0 joblib-1.5.0 scikit-learn-1.6.1 scipy-1.15.3 threadpoolctl-3.6.0
+
+    ~/Doc/pe/M/1/2/M/proyecto ▓▒░ touch app.py                                               ░▒▓ ✔  17s   proyecto   03:55:34 PM  
+
+    ~/Doc/pe/M/1/2/M/proyecto ▓▒░ code .                                                             ░▒▓ ✔  proyecto   04:00:04 PM  
+
+    ~/Doc/pe/M/1/2/M/proyecto ▓▒░ python app.py                                                      ░▒▓ ✔  proyecto   04:00:07 PM  
+Traceback (most recent call last):
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/app.py", line 11, in <module>
+    @app.route("templates/")
+     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/flask/sansio/scaffold.py", line 362, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/werkzeug/routing/rules.py", line 475, in __init__
+    raise ValueError(f"URL rule '{string}' must start with a slash.")
+ValueError: URL rule 'templates/' must start with a slash.
+
+Aqui ya funcionó con 3
+
+
+    ~/Doc/pe/M/1/2/M/proyecto ▓▒░ python app.py                                            ░▒▓ 1 ✘  25s   proyecto   04:07:10 PM  
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 237-799-067
+127.0.0.1 - - [11/May/2025 16:07:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2025 16:07:44] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [11/May/2025 16:08:07] "POST /predict HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/flask/app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/flask/app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/app.py", line 20, in predict
+    pred = modelo.predict(entrada)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/sklearn/linear_model/_base.py", line 297, in predict
+    return self._decision_function(X)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/sklearn/linear_model/_base.py", line 276, in _decision_function
+    X = validate_data(self, X, accept_sparse=["csr", "csc", "coo"], reset=False)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2965, in validate_data
+    _check_n_features(_estimator, X, reset=reset)
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2829, in _check_n_features
+    raise ValueError(
+ValueError: X has 2 features, but RidgeCV is expecting 3 features as input.
+127.0.0.1 - - [11/May/2025 16:08:07] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2025 16:08:07] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2025 16:08:07] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=SqKprc5uYW8eMEmPWbN1 HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2025 16:08:07] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2025 16:12:03] "POST /predict HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/flask/app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/flask/app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/app.py", line 20, in predict
+    pred = modelo.predict(entrada)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/sklearn/linear_model/_base.py", line 297, in predict
+    return self._decision_function(X)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/sklearn/linear_model/_base.py", line 276, in _decision_function
+    X = validate_data(self, X, accept_sparse=["csr", "csc", "coo"], reset=False)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2965, in validate_data
+    _check_n_features(_estimator, X, reset=reset)
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2829, in _check_n_features
+    raise ValueError(
+ValueError: X has 2 features, but RidgeCV is expecting 3 features as input.
+127.0.0.1 - - [11/May/2025 16:12:03] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+127.0.0.1 - - [11/May/2025 16:12:03] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/May/2025 16:12:03] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=SqKprc5uYW8eMEmPWbN1 HTTP/1.1" 304 -
+127.0.0.1 - - [11/May/2025 16:12:03] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+127.0.0.1 - - [11/May/2025 16:12:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2025 16:12:17] "POST /predict HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/flask/app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/flask/app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/app.py", line 20, in predict
+    pred = modelo.predict(entrada)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/sklearn/linear_model/_base.py", line 297, in predict
+    return self._decision_function(X)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/sklearn/linear_model/_base.py", line 276, in _decision_function
+    X = validate_data(self, X, accept_sparse=["csr", "csc", "coo"], reset=False)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2965, in validate_data
+    _check_n_features(_estimator, X, reset=reset)
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2829, in _check_n_features
+    raise ValueError(
+ValueError: X has 2 features, but RidgeCV is expecting 3 features as input.
+127.0.0.1 - - [11/May/2025 16:12:17] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+127.0.0.1 - - [11/May/2025 16:12:17] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/May/2025 16:12:17] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=SqKprc5uYW8eMEmPWbN1 HTTP/1.1" 304 -
+127.0.0.1 - - [11/May/2025 16:13:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2025 16:13:20] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2025 17:19:28] "POST /predict HTTP/1.1" 200 -
+ * Detected change in '/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 237-799-067
+127.0.0.1 - - [12/May/2025 16:41:52] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [12/May/2025 16:41:52] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [12/May/2025 16:42:04] "POST /predict HTTP/1.1" 200 -
+ * Detected change in '/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 237-799-067
+127.0.0.1 - - [12/May/2025 16:44:31] "POST /predict HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/flask/app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/flask/app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/env/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/app.py", line 22, in predict
+    "index.html", prediccion_text=f"Predicción: {pred[0],pred[1]}"
+                                                         ^^^^^^^^^
+IndexError: index 1 is out of bounds for axis 0 with size 1
+127.0.0.1 - - [12/May/2025 16:44:31] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+127.0.0.1 - - [12/May/2025 16:44:31] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+127.0.0.1 - - [12/May/2025 16:44:31] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=Nz2Fzd92RGm8G462kv9t HTTP/1.1" 200 -
+127.0.0.1 - - [12/May/2025 16:44:31] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+ * Detected change in '/Users/javierportillarosero/Documents/personal/Maestria/1er Semestre/2da mitad/Machine learling/proyecto/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 237-799-067
+127.0.0.1 - - [12/May/2025 16:44:58] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [12/May/2025 16:45:03] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [12/May/2025 17:06:09] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [12/May/2025 17:06:09] "GET /static/css/style.css HTTP/1.1" 404 -
+127.0.0.1 - - [12/May/2025 17:10:59] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [12/May/2025 17:10:59] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [12/May/2025 17:11:37] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [12/May/2025 17:11:37] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [12/May/2025 17:15:10] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [12/May/2025 17:15:10] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [12/May/2025 17:15:25] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [12/May/2025 17:15:25] "GET /static/css/style.css HTTP/1.1" 304 -
+

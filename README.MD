@@ -1,7 +1,7 @@
 # Proyecto de Predicción de Órdenes
 
 Este proyecto es una aplicación web en Flask que carga un modelo de regresión entrenado (`model_admit5.pkl`), aplica el preprocesado de escalado y muestra predicciones de **Total de órdenes a entregar** según cinco características.
-
+Este modelo se encuentra enn el siguiente link: https://colab.research.google.com/drive/1Ekuuou8zDQCKtra_lWdA12kSD7nAV8U9
 ## Estructura del Proyecto
 proyecto/
 ├── app.py                  # Código principal de la aplicación Flask
